@@ -1,0 +1,16 @@
+[package]
+name = "untitled"
+version = "0.1.0"
+authors = ["Andrew Gauger <andygauge@gmail.com>"]
+edition = "2018"
+build = "src/build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+skeptic = "0.13"
+
+[dependencies]
+skeptic = "0.13"
+reqwest = "0.9"
+percent-encoding = "2.1.0"
